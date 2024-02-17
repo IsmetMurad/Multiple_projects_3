@@ -1,0 +1,47 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.switch-btn{
+    width: 80px;
+    height: 40px;
+    background: #e5e5e5;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+    display: inline-block;
+
+
+}
+.switch-btn::before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    background: #fff;
+    left: 2px;
+    top: 2px;  transition: all 250ms ease-out;
+    border-radius: 20px;
+    
+}
+input[type=checkbox]:checked + .switch-btn::before{
+    left: 42px;
+
+}
+.switch{
+    opacity: 0;
+}
+input[type=checkbox]:checked + .switch-btn{
+    background: rgb(239, 100, 255);
+}
+.main{
+
+    text-align: center;
+    justify-content: center;
+}
+
+ p{
+    display: inline;
+    font-size: 40px;
+} 
