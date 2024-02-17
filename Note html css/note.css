@@ -1,0 +1,52 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-color: lightblue;
+    
+}
+.header{
+    background-color: lightgreen;
+    
+    height: 40px;
+    width: 400px;
+    display: flex;
+}
+.main{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+    
+}
+.note{
+    display: inline-block;
+    box-shadow: 10px 10px #aaa;
+
+
+}
+h2{
+    margin-left: 30px;
+    display: block;
+}
+.fa-pen{
+    display: flex;
+    font-size: 26px;
+    align-items: center;
+    margin-left: 320px ;
+}
+.fa-dumpster{
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+input{
+    border: none;
+    padding: 120px;
+
+}
